@@ -34,9 +34,34 @@ A production-oriented Retrieval-Augmented Generation (RAG) project built by unde
 - Understood the Recursive Chunking algorithm
 - Integrated LangChain's RecursiveCharacterTextSplitter
 
+## Module 3 – Embeddings
+
+### Objectives
+- Understand dense embeddings
+- Compare embedding models
+- Choose a production embedding model
+- Generate embeddings for document chunks
+
+### Implementation
+- Integrated `sentence-transformers`
+- Selected `BAAI/bge-small-en-v1.5`
+- Implemented reusable embedding generator
+- Generated embeddings for all document chunks
+
+### Output
+- 39 document chunks
+- Embedding matrix shape: `(39, 384)`
+
+### Key Learnings
+- Dense vs Sparse embeddings
+- Sentence embeddings
+- NumPy output
+- Batching
+- Deterministic embeddings
+
 ## Upcoming Modules
 
-- ⏳ Embeddings
+
 - ⏳ Vector Database
 - ⏳ Similarity Search
 - ⏳ Retriever
