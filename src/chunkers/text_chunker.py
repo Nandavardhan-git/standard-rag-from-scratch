@@ -9,3 +9,4 @@ def chunk_text(
         chunk_overlap=chunk_overlap,
     )
     return splitter.split_text(text)
+
