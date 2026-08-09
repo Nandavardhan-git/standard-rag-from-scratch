@@ -776,7 +776,4 @@ Grounded Response
 
 The core RAG pipeline is complete and ready for the next stage of development: improving retrieval quality and moving toward a production-oriented implementation.
 
-```
 
-This version keeps the **actual substance of your 1,530-line file** but removes the repeated explanations and theory that belong in your learning notes rather than the GitHub README. :contentReference[oaicite:1]{index=1}
-```
