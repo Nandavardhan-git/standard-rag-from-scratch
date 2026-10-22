@@ -1,15 +1,19 @@
+
 # Virtual Environment
 .venv/
 
 # Python cache
 __pycache__/
-*.pyc
+*.py[cod]
 
 # VS Code
 .vscode/
 
-# Environment variables
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
 
-# ChromaDB
+# ChromaDB local databases
 database/
+databse/

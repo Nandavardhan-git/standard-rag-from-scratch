@@ -1,0 +1,10 @@
+
+[
+  {
+    "id": "q01",
+    "question": "According to the book introduction, how can improving people skills benefit a person's life?",
+    "reference_answer": "Improving people skills can contribute to career success, a better social life, and improved family life.",
+    "relevant_chunk_ids": ["chunk_0"],
+    "answerable": true
+  }
+]

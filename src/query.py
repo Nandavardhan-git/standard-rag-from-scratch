@@ -11,10 +11,7 @@ while True:
     results = retrieve(query_embedding)
     documents = results["documents"][0]
     context = "\n\n".join(documents)
-
     prompt = build_prompt(context, query)
-
     answer = generate_response(prompt)
-
     print("\nAnswer:")
     print(answer)
