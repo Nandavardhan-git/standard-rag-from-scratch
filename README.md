@@ -729,22 +729,31 @@ Not yet implemented:
 
 ---
 
-# Future Improvements
+## Retrieval Evaluation
 
-* Retrieval quality evaluation
-* Precision and recall analysis
-* Reranking
-* Hybrid keyword + semantic search
-* Metadata filtering
-* Query transformation
-* Improved chunking strategies
-* Conversation memory
-* Streaming responses
-* FastAPI backend
-* Web interface
-* Logging and observability
-* Automated evaluation
-* Production deployment
+The project includes an initial retrieval evaluation script that measures:
+
+- **Hit Rate@K** — Whether a relevant chunk appears in the top K results.
+- **Precision@K** — The proportion of retrieved chunks labelled relevant.
+- **Recall@K** — The proportion of labelled relevant chunks retrieved.
+- **MRR (Mean Reciprocal Rank)** — How highly the first relevant chunk is ranked.
+
+Run the evaluation:
+
+```bash
+python evaluation/evaluate_retrieval.py
+```
+
+### Initial Results
+
+| Metric | Result |
+|---|---:|
+| Hit Rate@5 | 1.00 |
+| Precision@5 | 0.20 |
+| Recall@5 | 1.00 |
+| MRR | 1.00 |
+
+**Evaluation scope:** These results are based on one labelled benchmark question and represent an initial sanity check, not a comprehensive measure of retrieval quality.git status
 
 ---
 
